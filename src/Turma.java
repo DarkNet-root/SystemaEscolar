@@ -1,4 +1,4 @@
-
+package teste_02;
 
 public class Turma {
 	private int idTurma;

@@ -1,3 +1,4 @@
+package teste_02;
 
 public class Responsavel extends Pessoa{
 	private int idResponsavel;
@@ -18,7 +19,7 @@ public class Responsavel extends Pessoa{
 	public double getRenda(){
 	    return renda;
 	}
-	public void setNome(double renda){
+	public void setRenda(double renda){
 	    this.renda = renda;
 	}
 

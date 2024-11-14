@@ -1,16 +1,17 @@
-
+package teste_02;
 
 public class TurmaAluno {
 	private Turma turma;
 	private Aluno aluno;
-	private String diciplina;
+	private String disciplina;
 	private double nota;
 	
-	public TurmaAluno(Turma turma, Aluno aluno, String diciplina, double nota) {
+	public TurmaAluno(Turma turma, Aluno aluno, String disciplina, double nota) {
 		this.turma = turma;
 		this.aluno = aluno;
-		this.diciplina = diciplina;
+		this.disciplina = disciplina;
 		this.nota = nota;
+		
 	}
 	
 	public Turma getTurma() {
@@ -25,11 +26,11 @@ public class TurmaAluno {
 	public void setAluno(Aluno aluno) {
 		this.aluno = aluno;
 	}
-	public String getDiciplina() {
-		return diciplina;
+	public String getDisciplina() {
+		return disciplina;
 	}
-	public void setDiciplina(String diciplina) {
-		this.diciplina = diciplina;
+	public void setDisciplina(String disciplina) {
+		this.disciplina = disciplina;
 	}
 	public double getNota() {
 		return nota;
